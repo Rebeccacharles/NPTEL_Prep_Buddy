@@ -1,4 +1,4 @@
-# NPTEL Preparation Buddy - Generative AI Study Assistant \\
+# NPTEL Preparation Buddy - Generative AI Study Assistant \n
 An AI-powered Generative AI Study Assistant built with Python, LangChain, Google Gemini API, and ChromaDB.\\
 This project helps students upload NPTEL lecture PDFs, interact with them via contextual Q&A, get concise summaries, and even generate quiz-style MCQs for exam preparation.\\
 
