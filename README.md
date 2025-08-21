@@ -31,7 +31,7 @@ Installation & Setup
 1. Clone the repository:
 
    ---
-   git clone https://github.com/your-username/NPTEL-Prep-Buddy.git
+   git clone https://github.com/Rebeccacharles/NPTEL_Prep_Buddy/tree/main
    cd NPTEL-Prep-Buddy
    ---
 
@@ -46,10 +46,7 @@ Installation & Setup
    * Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey).
    * Export it in your environment:
 
-    ---
-     export GOOGLE_API_KEY="your_api_key"   # Mac/Linux
-     setx GOOGLE_API_KEY "your_api_key"     # Windows
-    ---
+    (USE YOUR GEMINI API KEY)
 
 4. Run the app:
 
