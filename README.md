@@ -1,9 +1,75 @@
 NPTEL Prep Buddy - Generative AI Study Assistant
 
-An AI-powered Generative AI Study Assistant built with Python, LangChain, Google Gemini API, and ChromaDB.This project helps students upload NPTEL lecture PDFs, interact with them via contextual Q&A, get concise summaries, and even generate quiz-style MCQs for exam preparation.FeaturesMulti-PDF Q&A: Ask natural language questions across multiple NPTEL PDFs.Summarization: Generate concise, revision-ready summaries of lecture materials.Quiz Generator: Create MCQ-style quiz questions with correct answers for self-testing.Contextual Memory: Maintains chat history for better, more relevant responses.User-Friendly Interface: Built with Streamlit for an interactive and simple web UI.Tech StackPythonLangChain (document parsing, chaining)Google Gemini API (embeddings + conversational model)ChromaDB (vector storage & retrieval)Streamlit (frontend interface)PyPDF (PDF parsing)UsageUpload one or more NPTEL PDFs (lecture notes, assignments, textbooks).Use the Q&A tab to ask contextual questions.Generate summaries for quick revision.Create quiz questions to practice for exams.Why This Project?Unlike generic GenAI chatbots, NPTEL Prep Buddy is a personalized academic assistant designed to enhance learning and boost exam preparation efficiency. It demonstrates real-world applications of LangChain, vector databases, and LLM integration in the education domain.Installation & SetupClone the repository:git clone [https://github.com/Rebeccacharles/NPTEL_Prep_Buddy.git](https://github.com/Rebeccacharles/NPTEL_Prep_Buddy.git)
+An AI-powered Generative AI Study Assistant built with Python, LangChain, Google Gemini API, and ChromaDB.
+
+This project helps students upload NPTEL lecture PDFs, interact with them via contextual Q&A, get concise summaries, and even generate quiz-style MCQs for exam preparation.
+
+Features
+
+Multi-PDF Q&A: Ask natural language questions across multiple NPTEL PDFs.
+
+Summarization: Generate concise, revision-ready summaries of lecture materials.
+
+Quiz Generator: Create MCQ-style quiz questions with correct answers for self-testing.
+
+Contextual Memory: Maintains chat history for better, more relevant responses.
+
+User-Friendly Interface: Built with Streamlit for an interactive and simple web UI.
+
+Tech Stack
+
+Python
+
+LangChain (document parsing, chaining)
+
+Google Gemini API (embeddings + conversational model)
+
+ChromaDB (vector storage & retrieval)
+
+Streamlit (frontend interface)
+
+PyPDF (PDF parsing)
+
+Usage
+
+Upload one or more NPTEL PDFs (lecture notes, assignments, textbooks).
+
+Use the Q&A tab to ask contextual questions.
+
+Generate summaries for quick revision.
+
+Create quiz questions to practice for exams.
+
+Why This Project?
+
+Unlike generic GenAI chatbots, NPTEL Prep Buddy is a personalized academic assistant designed to enhance learning and boost exam preparation efficiency.
+
+It demonstrates real-world applications of LangChain, vector databases, and LLM integration in the education domain.
+
+Installation & Setup
+# Clone the repository
+git clone https://github.com/Rebeccacharles/NPTEL_Prep_Buddy.git
 cd NPTEL_Prep_Buddy
-Create and activate a virtual environment (recommended):python -m venv venv
-On Windows:venv\Scripts\activate
-On macOS/Linux:source venv/bin/activate
-Install dependencies:pip install -r requirements.txt
-Set up Google Gemini API Key:Get your API key from Google AI Studio.Enter the key directly into the application's sidebar when you run it.Run the app:streamlit run app.py
+
+# Create and activate a virtual environment (recommended)
+python -m venv venv
+
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+Set up Google Gemini API Key
+
+Get your API key from Google AI Studio.
+
+Enter the key directly into the application's sidebar when you run it.
+
+Run the app
+streamlit run app.py
+
+
