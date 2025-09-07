@@ -6,15 +6,15 @@ This project helps students upload NPTEL lecture PDFs, interact with them via co
 
 Features
 
-Multi-PDF Q&A: Ask natural language questions across multiple NPTEL PDFs.
+Multi-PDF Q&A – Ask natural language questions across multiple NPTEL PDFs.
 
-Summarization: Generate concise, revision-ready summaries of lecture materials.
+Summarization – Generate concise, revision-ready summaries of lecture materials.
 
-Quiz Generator: Create MCQ-style quiz questions with correct answers for self-testing.
+Quiz Generator – Create MCQ-style quiz questions with correct answers for self-testing.
 
-Contextual Memory: Maintains chat history for better, more relevant responses.
+Contextual Memory – Maintains chat history for better, more relevant responses.
 
-User-Friendly Interface: Built with Streamlit for an interactive and simple web UI.
+User-Friendly Interface – Built with Streamlit for an interactive and simple web UI.
 
 Tech Stack
 
@@ -71,5 +71,3 @@ Enter the key directly into the application's sidebar when you run it.
 
 Run the app
 streamlit run app.py
-
-
